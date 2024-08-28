@@ -1155,6 +1155,7 @@ GameObject:
   - component: {fileID: 612199498}
   - component: {fileID: 612199497}
   - component: {fileID: 612199499}
+  - component: {fileID: 612199500}
   m_Layer: 0
   m_Name: Playaer
   m_TagString: Untagged
@@ -1223,7 +1224,7 @@ Transform:
   m_GameObject: {fileID: 612199493}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13703, y: 0.07383, z: -0.0022023357}
+  m_LocalPosition: {x: -0.2654, y: 0.067, z: -0.0022023357}
   m_LocalScale: {x: 0.11080983, y: 0.36090824, z: 0.39326665}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1335,6 +1336,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
+  JumpForce: 10
+--- !u!114 &612199500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612199493}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb38a29c81d90014c89e7a3248edf324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  JumpForce: 10
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
