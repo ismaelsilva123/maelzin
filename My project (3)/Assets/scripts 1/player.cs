@@ -28,13 +28,20 @@ public class player : MonoBehaviour
   }
  void Jump()
  {
+
      if(Input.GetButtonDown("Jump"))
      {
          rig.AddForce(new Vector3(0f, JumpForce), ForceMode2D.Impulse);
      }
-     else{
-        
+    
+  
+     voidonCollisionEnter2D(Collision2D collision)                                                 on
+     {
+        if(Collision.gameObject.layer == 8)
      }
+
+      
+     
      
 
 
